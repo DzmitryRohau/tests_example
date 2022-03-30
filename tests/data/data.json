@@ -1,0 +1,22 @@
+{
+  "path": {
+    "login_path": "/api/v1/login",
+    "path_for_test_cases": "/api/v1/test_cases",
+    "path_to_get_all_test_suites": "/api/v1/test_suites",
+    "path_to_create_test_suit": "/api/v1/test_suites"
+  },
+  "params": {
+    "params_for_test_cases": {
+      "suiteID": "1",
+      "title": "title",
+      "description": "short info about test case for test_3"
+    },
+    "params_to_create_test_suit": {
+      "title": "title"
+    },
+    "valid_login_params" : {"username": "test", "password": "test"}
+  },
+  "incorrect_content_type": "application/qwe",
+  "correct_content_type": "application/json",
+  "server_name": "http://127.0.0.1:5000"
+}
